@@ -1,0 +1,55 @@
+body {
+  padding-top: 60px; /* 60px to make the container go all the way to the bottom of the topbar */
+}
+
+h1, .center {
+  text-align: center;
+}
+
+section {
+  padding-top: 40px;
+  margin-bottom: -20px;
+}
+
+img.right {
+  margin: 0 0 5px 10px;
+  float: right;
+}
+img.left {
+  margin: 0 10px 5px 0;
+  float: left;
+}
+
+#contents {
+  padding-bottom: 40px;
+}
+
+.navbar-inner {
+  background-color: rgb(153, 204, 255);
+}
+
+.required:after {
+  color: red;
+  content: " *";
+}
+
+#subscribe > .row-fluid {
+  background-color: rgb(153, 204, 255);
+  padding-top: 15px;
+}
+
+#members ul {
+  margin: 0;
+  padding: 0;
+}
+
+#members li {
+  list-style-type: none;
+  margin: 0;
+  clear: both;
+}
+.four-column {
+  -moz-columns:4;
+  -webkit-columns:4;
+  columns:4;
+}
