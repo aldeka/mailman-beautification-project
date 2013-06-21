@@ -1,6 +1,6 @@
 Hello!
 
-Right now, the contents of this repository generate the Mailman listinfo template you see on http://www.mailmanbeautification.org. 
+Right now, the contents of this repository generate the Mailman listinfo template you see on http://www.mailmanbeautification.org.
 
 The aim of this project is to make an attractive, easy-to-install, easy-to-tweak Mailman template for others to reuse for their lists. We're very early on in this process--both in terms of improving the style and usability of our test page and in making it replicable for others!--but we hope you'll join the mailing list and keep an eye out for cool things other projects have done with their mailing list software.
 
@@ -15,3 +15,5 @@ The aim of this project is to make an attractive, easy-to-install, easy-to-tweak
 * Add a members list, if there are publicly visible members, with thumbnail pictures from Gravatar
 * Prettify other mailman pages besides listinfo
 * Write install script that also helps figure out uploading/updating CSS and media files
+
+Also see our Issues page. https://github.com/aldeka/mailman-beautification-project/issues
