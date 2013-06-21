@@ -1,0 +1,17 @@
+Hello!
+
+Right now, the contents of this repository generate the Mailman listinfo template you see on http://www.mailmanbeautification.org. 
+
+The aim of this project is to make an attractive, easy-to-install, easy-to-tweak Mailman template for others to reuse for their lists. We're very early on in this process--both in terms of improving the style and usability of our test page and in making it replicable for others!--but we hope you'll join the mailing list and keep an eye out for cool things other projects have done with their mailing list software.
+
+[Some] Todos:
+
+* Write an easy-to-run Python script that parses mailman templates, fills in the variables with mock data, and returns compiled HTML in a compiled/ folder (so you can run python -m SimpleHTTPServer in that directory and see what the heck you're doing without needing a Mailman install of your own)
+* Document e.g. how to fill in the About section
+* Change the color of the top bar, plus other changes to make this less obviously default Bootstrap
+* Write install script that automatically replaces mailman templates with beautified ones
+* Fix the bug in section switching
+* Add a 'five most recent threads' type thing under Archive
+* Add a members list, if there are publicly visible members, with thumbnail pictures from Gravatar
+* Prettify other mailman pages besides listinfo
+* Write install script that also helps figure out uploading/updating CSS and media files
